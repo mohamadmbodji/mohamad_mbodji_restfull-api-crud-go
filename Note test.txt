@@ -1,0 +1,40 @@
+**** Créer un dossier pour l'application dans le répertoire C:\Users\AHMADMBODJI\goproject
+mkdir restfull-api-crud-go
+
+**** Initialiser le module GO pour le projet
+cd restfull-api-crud-go 
+go mod init github.com/mohamadmbodji/goproject
+
+**** Installer Gorilla mux:
+go get -u github.com/gorilla/mux
+
+**** Installer GORM
+go get -u gorm.io/gorm
+
+**** Installer le pilote MySQL
+go get -u gorm.io/driver/mysql
+
+
+**** Installer viper
+go get -u github.com/spf13/viper
+
+/*
+gorilla/mux sera utilisé pour acheminer la requête HTTP entrante 
+versla méthode correcte qui gère l'opération spécifique
+*/
+
+/*
+Un ORM est un ensemble de classes permettant de manipuler les tables d'une base de données 
+relationnelle comme s'il s'agissait d'objets
+*/
+
+/*
+GORM est un ORM avec des fonctions d'assistance qui portent des requêtes ou exécutent
+des commandes sur une base de données spécifique.
+*/
+
+/*
+viper est un gestionnaire de configurations qui nous aide à charger les valeurs définies par 
+les fichiers et l'environnement dans le runtime de l'application. Il y aura aussi un article 
+séparé sur Viper!
+*/

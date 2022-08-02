@@ -1,0 +1,5 @@
+{
+      
+    "connection_string": "root:@tcp(127.0.0.1:3306)/bdproduits",
+    "port": 8080
+}
